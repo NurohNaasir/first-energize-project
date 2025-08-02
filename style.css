@@ -7,8 +7,8 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   line-height: 1.6;
-  color: #333;
-  background-color: #f9f9f9;
+  color: #1f46c7;
+  background-color: darkred;
 }
 
 /* Navbar */
@@ -17,7 +17,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #fff;
+  background-color: red;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 .logo {
@@ -31,7 +31,7 @@ body {
 }
 .nav-links a {
   text-decoration: none;
-  color: #333;
+  color:purple;
   font-weight: 500;
 }
 
@@ -59,6 +59,31 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
+footer {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 18px;
+      }
+       button {
+        background:     rgba(0, 0, 0, 0.87);
+        border:         none;
+        font-size:      42px;
+        border-radius:  4px;
+        text-transform: uppercase;
+        color:          #fff;
+        display:        block;
+        padding:        10px 20px;
+        transition:     opacity 150ms ease;
+        cursor:         pointer;
+        opacity:        1;
+        box-shadow:     0 1px 20px rgba(0,0,0,0.5);
+        margin:         30px auto;
+      }
+
+      button:hover {
+        opacity: 0.9;
+      }
+
 
 /* Video
 
